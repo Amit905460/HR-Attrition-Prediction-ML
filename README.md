@@ -41,24 +41,45 @@ Tried multiple models:
 👉 **Final model selected:** `DecisionTreeClassifier` (best accuracy & interpretability)
 
 ### 5. **Model Evaluation**
-- Accuracy, Precision, Recall, F1-score
-- Confusion Matrix
-- Classification Report
+
+The model was evaluated using:
+- ✅ Confusion Matrix
+- ✅ Accuracy Score
+- ✅ Precision, Recall, and F1-Score (from `classification_report`)
+
+#### 📉 Confusion Matrix
+[[2584 64]
+[ 106 381]]
+
+markdown
+Copy
+Edit
+
+#### ✅ Metrics Breakdown
+
+| Metric        | Value   |
+|---------------|---------|
+| Accuracy      | **0.946** |
+| Precision (Class 1 - Left) | **0.86** |
+| Recall (Class 1 - Left)    | **0.78** |
+| F1-Score (Class 1 - Left)  | **0.82** |
+| Macro Avg Precision        | **0.91** |
+| Macro Avg Recall           | **0.88** |
+| Macro Avg F1-Score         | **0.89** |
+
+> 🔍 The model performs very well on identifying employees who **stay (class 0)** and reasonably well on those who **leave (class 1)** — with a good balance between precision and recall.
 
 ---
 
-## ✅ Results
+## ✅ Final Results Summary
 
-| Metric        | Value       |
-|---------------|-------------|
-| Accuracy      | ~XX%        |
-| Precision     | XX%         |
-| Recall        | XX%         |
-| F1-Score      | XX%         |
+| Metric        | Value |
+|---------------|-------|
+| **Accuracy**      | 0.946 |
+| **Precision**     | 0.86  |
+| **Recall**        | 0.78  |
+| **F1-Score**      | 0.82  |
 
-(*Replace XX with actual values*)
-
----
 
 ## 📁 Folder Structure
 
