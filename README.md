@@ -51,9 +51,6 @@ The model was evaluated using:
 [[2584 64]
 [ 106 381]]
 
-markdown
-Copy
-Edit
 
 #### ✅ Metrics Breakdown
 
@@ -106,3 +103,4 @@ Edit
 - Try ensemble models: XGBoost, CatBoost
 - Add hyperparameter tuning (GridSearchCV)
 - Deploy the model via Flask or Streamlit
+
